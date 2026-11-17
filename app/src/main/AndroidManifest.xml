@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PobleEmocions">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.ProfilesActivity"
             android:exported="true"
             android:screenOrientation="sensorLandscape">
             <intent-filter>
@@ -24,6 +24,61 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.PictogramAccessActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.MapActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.QuestionLevelActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.Level3Activity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.Level4Activity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.RestActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.EndActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.AdultPinActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.AdultPanelActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.NewProfileActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
+
+        <activity
+            android:name=".ui.ExportActivity"
+            android:exported="false"
+            android:screenOrientation="sensorLandscape" />
     </application>
 
 </manifest>

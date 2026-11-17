@@ -3,6 +3,7 @@
     <!-- Guía de estilo AND-01.2 · 3 · Botones y medidas táctiles. -->
     <dimen name="screen_margin">24dp</dimen>           <!-- Margen mínimo a la vora de pantalla -->
     <dimen name="card_gap">24dp</dimen>                <!-- Separación mínima entre cartas de respuesta -->
+    <dimen name="card_gap_half">12dp</dimen>           <!-- Margen a cada lado de un elemento: 2 x 12 = 24 dp entre vecinos -->
     <dimen name="button_min_height">72dp</dimen>       <!-- Botones de acción: alto >= 72 dp -->
     <dimen name="button_icon_size">40dp</dimen>        <!-- Icono de botón >= 40 dp -->
     <dimen name="level_circle_size">112dp</dimen>      <!-- Cercle de nivell -->

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.ProfilesActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/Poble.Text.Prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/screen_margin"
+        android:gravity="center"
+        android:text="@string/profiles_title" />
+
+    <TextView
+        android:id="@+id/tvDevNote"
+        style="@style/Poble.Text.Adult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/screen_margin"
+        android:gravity="center"
+        android:text="@string/dev_skeleton_note" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/screen_margin"
+        android:layout_marginTop="@dimen/card_gap"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnProfile"
+            style="@style/Poble.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:layout_weight="1"
+            android:text="@string/profiles_demo" />
+
+        <Button
+            android:id="@+id/btnNewProfile"
+            style="@style/Poble.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:layout_weight="1"
+            android:text="@string/profiles_new" />
+
+        <Button
+            android:id="@+id/btnAdultZone"
+            style="@style/Poble.Button.Primary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:layout_weight="1"
+            android:text="@string/adult_zone" />
+
+    </LinearLayout>
+
+</LinearLayout>

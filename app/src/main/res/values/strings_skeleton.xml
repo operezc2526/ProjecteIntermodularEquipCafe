@@ -1,0 +1,12 @@
+<resources>
+    <!--
+        Textos PROVISIONALES del esqueleto de navegación (AND-03.1).
+        Se irán eliminando conforme cada pantalla reciba su implementación real.
+        Este archivo debe quedar vacío (y borrarse) al cerrar la Fase 11.
+    -->
+    <string name="dev_skeleton_note">Esquelet de navegació (AND-03.1) · pantalla provisional</string>
+    <string name="dev_enter">Entrar (provisional)</string>
+    <string name="dev_enter_no_pin">Entrar sense PIN (provisional)</string>
+    <string name="dev_go_end">Anar al final (provisional)</string>
+    <string name="dev_complete_level">Acabar nivell (provisional)</string>
+</resources>
