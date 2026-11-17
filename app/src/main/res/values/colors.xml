@@ -25,4 +25,9 @@
     <color name="ink_50">#801F2A44</color>       <!-- Contornos punteados / casillas vacías -->
     <color name="help_20">#33FFD25A</color>      <!-- Halo tras avatares: amarillo de la guía al 20 % -->
     <color name="ink_20">#331F2A44</color>       <!-- Separadores finos -->
+
+    <!-- Mapa de noche (AND-03.1 · UI Figma): derivados de la guía, no definidos en ella -->
+    <color name="help_40">#66FFD25A</color>       <!-- Halo del nivel actual: amarillo de la guía al 40 % -->
+    <color name="map_hill_far">#2F7D4F</color>    <!-- Colina grande: verde de acierto de la guía -->
+    <color name="map_hill_near">#24663F</color>   <!-- Colina cercana: el mismo verde, algo más oscuro -->
 </resources>

@@ -33,6 +33,13 @@
     <string name="picto_star">Estrella</string>
 
     <!-- Mapa y niveles -->
+    <string name="map_progress_format">%1$d de 4 faroles enceses</string>
+    <string name="map_progress_done">4 de 4 faroles enceses!</string>
+    <string name="action_finish">Acabar</string>
+    <string name="cd_stars">Estrelles guanyades</string>
+    <string name="cd_level_current_format">Nivell %1$d: %2$s</string>
+    <string name="cd_level_locked_format">Nivell %1$d: %2$s, bloquejat</string>
+    <string name="cd_level_done_format">Nivell %1$d: %2$s, completat</string>
     <string name="level_1_name">La Plaça</string>
     <string name="level_2_name">El Parc</string>
     <string name="level_3_name">La Plaça Gran</string>

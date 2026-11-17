@@ -38,4 +38,23 @@
     <dimen name="icon_small">32dp</dimen>
     <dimen name="text_card_name">24sp</dimen>
     <dimen name="text_plus">64sp</dimen>
+
+    <!-- Mapa (S05-S09) -->
+    <dimen name="top_bar_height">112dp</dimen>
+    <dimen name="top_button_height">80dp</dimen>
+    <dimen name="top_rest_width">250dp</dimen>
+    <dimen name="top_stars_width">190dp</dimen>
+    <dimen name="lamp_width">110dp</dimen>
+    <dimen name="lamp_height">165dp</dimen>
+    <dimen name="map_circle_size">130dp</dimen>
+    <dimen name="map_halo_size">168dp</dimen>
+    <dimen name="map_halo_overlap">-19dp</dimen>           <!-- -(halo - circulo) / 2: el camino llega hasta el borde del circulo -->
+    <dimen name="map_side_padding">54dp</dimen>
+    <dimen name="progress_width">600dp</dimen>
+    <dimen name="progress_height">34dp</dimen>
+    <dimen name="brisa_map_size">130dp</dimen>
+    <dimen name="text_level_number">56sp</dimen>
+    <dimen name="text_map_label">20sp</dimen>
+    <dimen name="text_map_progress">22sp</dimen>
+    <dimen name="icon_level_state">60dp</dimen>
 </resources>

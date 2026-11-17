@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Circulo de nivel superado: verde de acierto con tic blanco. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/success" />
+            <stroke android:width="@dimen/stroke_card" android:color="@color/cream" />
+        </shape>
+    </item>
+    <item
+        android:width="@dimen/icon_level_state"
+        android:height="@dimen/icon_level_state"
+        android:drawable="@drawable/ic_check"
+        android:gravity="center" />
+</layer-list>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PLACEHOLDER: se sustituye por la exportacion de Figma (lamp_off.svg), 110 x 165. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="10dp"
+        android:height="105dp"
+        android:gravity="center_horizontal|bottom">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/map_lamp_off" />
+        </shape>
+    </item>
+    <item
+        android:width="48dp"
+        android:height="64dp"
+        android:gravity="center_horizontal|top"
+        android:top="16dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/map_lamp_off" />
+            <stroke android:width="3dp" android:color="@color/cream" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+    <item
+        android:width="64dp"
+        android:height="14dp"
+        android:gravity="center_horizontal|top">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cream" />
+            <corners android:radius="6dp" />
+        </shape>
+    </item>
+</layer-list>
