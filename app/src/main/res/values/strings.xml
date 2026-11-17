@@ -48,8 +48,23 @@
     <string name="level_3_title">Com l\'ajudem?</string>
     <string name="level_4_title">Respirem junts</string>
 
+    <!-- Niveles 1 y 2 (S10-S19) -->
+    <string name="action_help">Ajuda</string>
+    <string name="round_format">Ronda %1$d/%2$d</string>
+    <string name="l1_prompt_joy">Toca la cara contenta</string>
+    <string name="l1_hint">Escolta un altre cop</string>
+    <string name="l1_retry">Ho provem un altre cop?</string>
+    <string name="praise">Molt bé!</string>
+    <string name="l2_scene_caption">Se li cau el gelat</string>
+    <string name="l2_question">Com se sent?</string>
+    <string name="l2_retry">Prova-ho un altre cop!</string>
+    <string name="cd_face_joy">Cara contenta</string>
+    <string name="cd_face_sadness">Cara trista</string>
+    <string name="cd_face_anger">Cara enfadada</string>
+    <string name="cd_scene_gelat">Escena: a un nen se li cau el gelat</string>
+
     <!-- Descansar y final -->
-    <string name="rest_title">Descansem un moment</string>
+    <string name="rest_title">Descansem una mica</string>
     <string name="end_title">Molt bé! Has acabat</string>
 
     <!-- Zona d'adults -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PLACEHOLDER: se sustituye por la exportacion de Figma (face_neutral.svg). Forma + color: la emocion no depende solo del color. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:fillColor="#E9DCC3"
+        android:strokeColor="@color/ink"
+        android:strokeWidth="3"
+        android:pathData="M50,4 A46,46 0 1,1 49.99,4 Z" />
+    <path android:fillColor="@color/ink" android:pathData="M36,44 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+    <path android:fillColor="@color/ink" android:pathData="M64,44 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+    <path android:strokeColor="@color/ink" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M36,68 L64,68" /></vector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- PLACEHOLDER: se sustituye por la exportacion de Figma (face_joy.svg). Forma + color: la emocion no depende solo del color. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path
+        android:fillColor="@color/face_joy"
+        android:strokeColor="@color/ink"
+        android:strokeWidth="3"
+        android:pathData="M50,4 A46,46 0 1,1 49.99,4 Z" />
+    <path android:strokeColor="@color/ink" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M26,44 Q33,35 40,44" />
+    <path android:strokeColor="@color/ink" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M60,44 Q67,35 74,44" />
+    <path android:strokeColor="@color/ink" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M30,60 Q50,84 70,60 Z" /></vector>

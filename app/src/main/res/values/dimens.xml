@@ -57,4 +57,33 @@
     <dimen name="text_map_label">20sp</dimen>
     <dimen name="text_map_progress">22sp</dimen>
     <dimen name="icon_level_state">60dp</dimen>
+
+    <!-- Niveles 1 y 2 (S10-S19) -->
+    <dimen name="top_help_width">200dp</dimen>
+    <dimen name="dot_size">16dp</dimen>
+    <dimen name="dot_size_current">24dp</dimen>
+    <dimen name="dot_gap">10dp</dimen>
+    <dimen name="prompt_card_width">760dp</dimen>
+    <dimen name="prompt_card_height">130dp</dimen>
+    <dimen name="speaker_halo_size">84dp</dimen>
+    <dimen name="icon_speaker">48dp</dimen>
+    <dimen name="star_praise_size">64dp</dimen>
+    <dimen name="face_card_l1_size">300dp</dimen>
+    <dimen name="face_l1_size">220dp</dimen>
+    <dimen name="face_card_l2_width">240dp</dimen>
+    <dimen name="face_card_l2_height">210dp</dimen>
+    <dimen name="face_l2_size">160dp</dimen>
+    <dimen name="scene_width">700dp</dimen>
+    <dimen name="scene_height">380dp</dimen>
+    <dimen name="character_panel_width">440dp</dimen>
+    <dimen name="character_size">200dp</dimen>
+    <dimen name="brisa_level_size">140dp</dimen>
+    <dimen name="bubble_height">78dp</dimen>
+    <dimen name="icon_bubble">34dp</dimen>
+    <dimen name="text_praise">48sp</dimen>
+    <dimen name="text_bubble">24sp</dimen>
+    <dimen name="text_character_question">28sp</dimen>
+    <dimen name="rest_brisa_size">240dp</dimen>
+    <dimen name="rest_button_width">340dp</dimen>
+    <dimen name="rest_button_height">100dp</dimen>
 </resources>
