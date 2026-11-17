@@ -11,13 +11,26 @@
     <string name="action_rest">Descansar</string>
 
     <!-- S01 · Perfils -->
-    <string name="profiles_title">Qui juga avui?</string>
-    <!-- Etiqueta seudónima de ejemplo (formato ANIMAL-NN); nunca nombres reales de menores. -->
-    <string name="profiles_demo">PANDA-01</string>
+    <string name="profiles_title">Qui juga?</string>
+    <!-- Etiquetas seudónimas de ejemplo (formato ANIMAL-NN); nunca nombres reales de menores.
+         Provisionales: las sustituye el RecyclerView de perfiles de AND-02.2. -->
+    <string name="profiles_demo_1">GUINEU-07</string>
+    <string name="profiles_demo_2">OS-12</string>
+    <string name="profiles_demo_3">LLUNA-04</string>
     <string name="profiles_new">Nou perfil</string>
+    <string name="profiles_new_plus" translatable="false">+</string>
+    <string name="cd_new_profile">Crear un perfil nou</string>
+    <string name="cd_adult_zone">Zona d\'adults</string>
 
     <!-- S02-S04 · Acceso por pictogramas -->
-    <string name="access_prompt">Tria els teus 3 dibuixos</string>
+    <string name="access_prompt">Toca els teus 3 dibuixos</string>
+    <string name="cd_slot_format">Casella %1$d de 3</string>
+    <string name="picto_sun">Sol</string>
+    <string name="picto_ball">Pilota</string>
+    <string name="picto_tree">Arbre</string>
+    <string name="picto_house">Casa</string>
+    <string name="picto_fish">Peix</string>
+    <string name="picto_star">Estrella</string>
 
     <!-- Mapa y niveles -->
     <string name="level_1_name">La Plaça</string>
