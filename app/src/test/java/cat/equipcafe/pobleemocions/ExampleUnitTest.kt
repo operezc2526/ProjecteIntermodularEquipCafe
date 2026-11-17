@@ -1,4 +1,4 @@
-package com.example.myapplication
+package cat.equipcafe.pobleemocions
 
 import org.junit.Test
 

@@ -1,3 +1,42 @@
 <resources>
-    <string name="app_name">MyApplication</string>
+    <string name="app_name">El Poble de les Emocions</string>
+
+    <!-- Acciones comunes (botones en MAYÚSCULAS vía estilo Poble.Button) -->
+    <string name="action_back">Enrere</string>
+    <string name="action_cancel">Cancel·lar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_exit">Sortir</string>
+    <string name="action_go_map">Anar al mapa</string>
+    <string name="action_back_map">Tornar al mapa</string>
+    <string name="action_rest">Descansar</string>
+
+    <!-- S01 · Perfils -->
+    <string name="profiles_title">Qui juga avui?</string>
+    <!-- Etiqueta seudónima de ejemplo (formato ANIMAL-NN); nunca nombres reales de menores. -->
+    <string name="profiles_demo">PANDA-01</string>
+    <string name="profiles_new">Nou perfil</string>
+
+    <!-- S02-S04 · Acceso por pictogramas -->
+    <string name="access_prompt">Tria els teus 3 dibuixos</string>
+
+    <!-- Mapa y niveles -->
+    <string name="level_1_name">La Plaça</string>
+    <string name="level_2_name">El Parc</string>
+    <string name="level_3_name">La Plaça Gran</string>
+    <string name="level_4_name">El Jardí de la Calma</string>
+    <string name="level_title_format">Nivell %1$d · %2$s</string>
+    <string name="level_3_title">Com l\'ajudem?</string>
+    <string name="level_4_title">Respirem junts</string>
+
+    <!-- Descansar y final -->
+    <string name="rest_title">Descansem un moment</string>
+    <string name="end_title">Molt bé! Has acabat</string>
+
+    <!-- Zona d'adults -->
+    <string name="adult_zone">Zona d\'adults</string>
+    <string name="adult_pin_prompt">Introdueix el PIN d\'adult</string>
+    <string name="adult_panel_profiles">Perfils</string>
+    <string name="adult_new_profile">Nou perfil</string>
+    <string name="adult_export">Exportar dades (JSON)</string>
+    <string name="export_title">Exportar dades</string>
 </resources>

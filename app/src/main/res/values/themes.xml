@@ -1,9 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <!--
+        Tema fijo en claro: la guía de estilo (AND-01.2) usa fondo crema y no define modo oscuro.
+        Tokens en colors.xml, dimens.xml y styles.xml.
+    -->
+    <style name="Base.Theme.PobleEmocions" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/rest</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/cream</item>
+        <item name="colorOnSurface">@color/ink</item>
+        <item name="android:colorBackground">@color/cream</item>
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="android:fontFamily">@font/andika</item>
     </style>
 
-    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+    <style name="Theme.PobleEmocions" parent="Base.Theme.PobleEmocions" />
 </resources>
