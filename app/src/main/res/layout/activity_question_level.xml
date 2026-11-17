@@ -1,56 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    S10-S19 · Niveles 1 y 2. Barra superior comun (Descansar · puntos de ronda · Ajuda) y el cuerpo de cada nivel
+    incluido aparte; QuestionLevelActivity muestra solo el del nivel que se juega.
+    «Acabar nivell (provisional)» es una ayuda de desarrollo: se quita con AND-03.2 / AND-03.3.
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
     tools:context=".ui.QuestionLevelActivity">
 
-    <TextView
-        android:id="@+id/tvTitle"
-        style="@style/Poble.Text.Prompt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/screen_margin"
-        android:gravity="center"
-        tools:text="Nivell 1 · La Plaça" />
-
-    <TextView
-        android:id="@+id/tvDevNote"
-        style="@style/Poble.Text.Adult"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/screen_margin"
-        android:gravity="center"
-        android:text="@string/dev_skeleton_note" />
-
+    <!-- Barra superior -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="@dimen/screen_margin"
-        android:layout_marginTop="@dimen/card_gap"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@drawable/bg_topbar"
+        android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btnRest"
-            style="@style/Poble.Button.Rest"
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/card_gap_half"
             android:layout_weight="1"
-            android:text="@string/action_rest" />
+            android:gravity="start|center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="32dp">
 
-        <Button
-            android:id="@+id/btnComplete"
-            style="@style/Poble.Button.Success"
+            <Button
+                android:id="@+id/btnRest"
+                style="@style/Poble.Button.Rest"
+                android:layout_width="@dimen/top_rest_width"
+                android:layout_height="@dimen/top_button_height"
+                android:text="@string/action_rest"
+                app:icon="@drawable/ic_moon" />
+
+            <TextView
+                android:id="@+id/btnComplete"
+                style="@style/Poble.Text.Adult"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/bg_pill_neutral"
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:paddingHorizontal="20dp"
+                android:text="@string/dev_complete_level" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/roundDots"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dot_size_current"
+                android:gravity="center"
+                android:importantForAccessibility="no"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/tvRound"
+                style="@style/Poble.Text.Counter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                tools:text="RONDA 5/8" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="@dimen/card_gap_half"
             android:layout_weight="1"
-            android:text="@string/dev_complete_level" />
+            android:gravity="end|center_vertical"
+            android:paddingEnd="32dp">
 
+            <Button
+                android:id="@+id/btnHelp"
+                style="@style/Poble.Button.Help"
+                android:layout_width="@dimen/top_help_width"
+                android:layout_height="@dimen/top_button_height"
+                android:text="@string/action_help"
+                app:icon="@drawable/ic_help" />
+        </LinearLayout>
     </LinearLayout>
+
+    <include
+        android:id="@+id/level1"
+        layout="@layout/view_level1_body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <include
+        android:id="@+id/level2"
+        layout="@layout/view_level2_body"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone" />
 
 </LinearLayout>

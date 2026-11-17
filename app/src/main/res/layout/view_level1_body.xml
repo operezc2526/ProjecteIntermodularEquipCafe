@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Cuerpo de los niveles 1 (S10-S13, prototipo Figma 3:4 ...): consigna con altavoz, 3 cartas de cara 300 x 300
+    y Brisa con su burbuja. Se incluye en activity_question_level; QuestionLevelActivity decide que se ve.
+    Caras de ejemplo (triste, contenta, enfadada) hasta AND-03.2, que las ordenara al azar.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Consigna (S10-S12) -->
+    <LinearLayout
+        android:id="@+id/promptCard"
+        android:layout_width="@dimen/prompt_card_width"
+        android:layout_height="@dimen/prompt_card_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/bg_prompt_card"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- Altavoz: el audio llega en la Fase 11; ahora solo es dibujo -->
+        <LinearLayout
+            android:layout_width="@dimen/speaker_halo_size"
+            android:layout_height="@dimen/speaker_halo_size"
+            android:background="@drawable/bg_speaker_halo"
+            android:gravity="center">
+
+            <View
+                android:layout_width="@dimen/icon_speaker"
+                android:layout_height="@dimen/icon_speaker"
+                android:background="@drawable/ic_speaker"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPrompt"
+            style="@style/Poble.Text.Prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="22dp"
+            android:text="@string/l1_prompt_joy" />
+    </LinearLayout>
+
+    <!-- Felicitacion (S13): sustituye a la consigna -->
+    <LinearLayout
+        android:id="@+id/praiseRow"
+        android:layout_width="@dimen/prompt_card_width"
+        android:layout_height="@dimen/prompt_card_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="@dimen/star_praise_size"
+            android:layout_height="@dimen/star_praise_size"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/star_gold"
+            android:importantForAccessibility="no" />
+
+        <View
+            android:layout_width="@dimen/star_praise_size"
+            android:layout_height="@dimen/star_praise_size"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/star_gold"
+            android:importantForAccessibility="no" />
+
+        <View
+            android:layout_width="@dimen/star_praise_size"
+            android:layout_height="@dimen/star_praise_size"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/star_gold"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            style="@style/Poble.Text.Prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/praise"
+            android:textSize="@dimen/text_praise" />
+    </LinearLayout>
+
+    <!-- Caras -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnAnswer1"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/face_card_l1_size"
+            android:layout_height="@dimen/face_card_l1_size"
+            android:layout_marginHorizontal="20dp"
+            android:contentDescription="@string/cd_face_sadness">
+
+            <View
+                android:layout_width="@dimen/face_l1_size"
+                android:layout_height="@dimen/face_l1_size"
+                android:background="@drawable/face_sadness"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnAnswer2"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/face_card_l1_size"
+            android:layout_height="@dimen/face_card_l1_size"
+            android:layout_marginHorizontal="20dp"
+            android:contentDescription="@string/cd_face_joy">
+
+            <View
+                android:layout_width="@dimen/face_l1_size"
+                android:layout_height="@dimen/face_l1_size"
+                android:background="@drawable/face_joy"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnAnswer3"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/face_card_l1_size"
+            android:layout_height="@dimen/face_card_l1_size"
+            android:layout_marginHorizontal="20dp"
+            android:contentDescription="@string/cd_face_anger">
+
+            <View
+                android:layout_width="@dimen/face_l1_size"
+                android:layout_height="@dimen/face_l1_size"
+                android:background="@drawable/face_anger"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Brisa y su burbuja (ayuda / reintento suave / acierto) -->
+    <LinearLayout
+        android:id="@+id/brisaRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_marginStart="36dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="@dimen/brisa_level_size"
+            android:layout_height="@dimen/brisa_level_size"
+            android:background="@drawable/brisa"
+            android:importantForAccessibility="no" />
+
+        <LinearLayout
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bubble_height"
+            android:layout_marginStart="14dp"
+            android:background="@drawable/bg_bubble"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingEnd="34dp"
+            android:paddingStart="34dp">
+
+            <View
+                android:layout_width="@dimen/icon_bubble"
+                android:layout_height="@dimen/icon_bubble"
+                android:background="@drawable/ic_speaker"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                android:id="@+id/tvBubble"
+                style="@style/Poble.Text.CardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="@string/l1_hint"
+                android:textSize="@dimen/text_bubble" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
