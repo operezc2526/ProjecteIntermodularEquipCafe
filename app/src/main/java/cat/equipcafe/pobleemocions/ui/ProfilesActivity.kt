@@ -26,4 +26,10 @@ class ProfilesActivity : AppCompatActivity() {
         binding.btnNewProfile.setOnClickListener { goTo<AdultPinActivity>() }
         binding.btnAdultZone.setOnClickListener { goTo<AdultPinActivity>() }
     }
+
+    /** Volver a Perfils cierra la sesión: el progreso provisional del mapa empieza de cero. */
+    override fun onResume() {
+        super.onResume()
+        DemoProgress.reset()
+    }
 }

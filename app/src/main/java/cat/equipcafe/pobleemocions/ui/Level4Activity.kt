@@ -23,6 +23,7 @@ class Level4Activity : AppCompatActivity() {
             goTo<RestActivity>()
         }
         binding.btnComplete.setOnClickListener {
+            DemoProgress.complete(4) // provisional hasta AND-03.2
             finish()
         }
     }

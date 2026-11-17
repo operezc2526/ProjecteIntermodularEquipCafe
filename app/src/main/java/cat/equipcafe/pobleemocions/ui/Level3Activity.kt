@@ -23,6 +23,7 @@ class Level3Activity : AppCompatActivity() {
             goTo<RestActivity>()
         }
         binding.btnComplete.setOnClickListener {
+            DemoProgress.complete(3) // provisional hasta AND-03.2
             finish()
         }
     }
