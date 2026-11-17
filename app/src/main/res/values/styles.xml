@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- ===== Texto (AND-01.2 · 2) ===== -->
-    <style name="Poble.Text">
+    <!-- parent="" evita el padre implícito «Poble» (por el punto del nombre), que no existe. -->
+    <style name="Poble.Text" parent="">
         <item name="android:fontFamily">@font/andika</item>
         <item name="android:textColor">@color/ink</item>
     </style>
