@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Carta de acción secundaria («+ Nou perfil»): mismo tamaño que una carta, contorno punteado. -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/card_pressed" />
+            <stroke
+                android:width="@dimen/stroke_dashed"
+                android:color="@color/ink_50"
+                android:dashGap="10dp"
+                android:dashWidth="14dp" />
+            <corners android:radius="@dimen/corner_card" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cream" />
+            <stroke
+                android:width="@dimen/stroke_dashed"
+                android:color="@color/ink_50"
+                android:dashGap="10dp"
+                android:dashWidth="14dp" />
+            <corners android:radius="@dimen/corner_card" />
+        </shape>
+    </item>
+</selector>

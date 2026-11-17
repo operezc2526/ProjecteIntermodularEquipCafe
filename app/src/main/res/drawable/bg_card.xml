@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Carta de respuesta / perfil (AND-01.2 · 3): crema, contorno de 4 dp en tinta. Al pulsar se oscurece (sin animación). -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/card_pressed" />
+            <stroke android:width="@dimen/stroke_card" android:color="@color/ink" />
+            <corners android:radius="@dimen/corner_card" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/cream" />
+            <stroke android:width="@dimen/stroke_card" android:color="@color/ink" />
+            <corners android:radius="@dimen/corner_card" />
+        </shape>
+    </item>
+</selector>

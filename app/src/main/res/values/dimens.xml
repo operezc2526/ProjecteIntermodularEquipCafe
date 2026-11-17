@@ -16,4 +16,26 @@
     <dimen name="text_button">24sp</dimen>   <!-- Botón · Bold -->
     <dimen name="text_counter">20sp</dimen>  <!-- Comptador · Regular -->
     <dimen name="text_adult">16sp</dimen>    <!-- Menú de adultos (PIN) · registro neutro -->
+
+    <!-- Medidas del prototipo Figma (1 px de Figma = 1 dp; pantalla de referencia 1280 x 800 dp = Nexus 10) -->
+    <dimen name="corner_card">24dp</dimen>
+    <dimen name="corner_button">24dp</dimen>
+    <dimen name="stroke_card">4dp</dimen>             <!-- Contorno de cartas y caras: 4 dp en tinta (AND-01.2) -->
+    <dimen name="stroke_dashed">3dp</dimen>
+    <dimen name="stroke_thin">2dp</dimen>
+    <dimen name="profile_card_width">250dp</dimen>
+    <dimen name="profile_card_height">330dp</dimen>
+    <dimen name="avatar_halo_size">180dp</dimen>   <!-- Círculo suave tras el avatar -->
+    <dimen name="avatar_size">148dp</dimen>
+    <dimen name="avatar_size_small">96dp</dimen>
+    <dimen name="brisa_width">140dp</dimen>
+    <dimen name="brisa_height">100dp</dimen>
+    <dimen name="picto_card_size">150dp</dimen>
+    <dimen name="picto_size">104dp</dimen>
+    <dimen name="picto_slot_size">130dp</dimen>
+    <dimen name="picto_slot_picto_size">92dp</dimen>
+    <dimen name="icon_prompt">48dp</dimen>
+    <dimen name="icon_small">32dp</dimen>
+    <dimen name="text_card_name">24sp</dimen>
+    <dimen name="text_plus">64sp</dimen>
 </resources>

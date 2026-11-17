@@ -20,9 +20,27 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
+    <!-- Etiqueta de carta (ID seudónimo del perfil, nombre del pictograma): 24 sp, Bold -->
+    <style name="Poble.Text.CardName">
+        <item name="android:textSize">@dimen/text_card_name</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
     <!-- Zona de adultos: registro neutro, 16 sp -->
     <style name="Poble.Text.Adult">
         <item name="android:textSize">@dimen/text_adult</item>
+    </style>
+
+    <!-- ===== Cartas (AND-01.2 · 3): contenedor táctil con fondo propio, sin ImageView ===== -->
+    <style name="Poble.Card" parent="">
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Poble.Card.Dashed">
+        <item name="android:background">@drawable/bg_card_dashed</item>
     </style>
 
     <!-- ===== Botones (AND-01.2 · 3): alto >= 72 dp, icono >= 40 dp, texto 24 sp Bold ===== -->

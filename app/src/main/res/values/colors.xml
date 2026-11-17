@@ -19,4 +19,10 @@
     <color name="map_sky">#1B2440</color>
     <color name="map_lamp_on">#FFC94D</color>
     <color name="map_lamp_off">#8591B0</color>
+
+    <!-- Superficies y contornos derivados (AND-03.1 · UI Figma) -->
+    <color name="card_pressed">#F6E9D0</color>   <!-- Carta al pulsar: crema algo más oscuro, sin animación -->
+    <color name="ink_50">#801F2A44</color>       <!-- Contornos punteados / casillas vacías -->
+    <color name="help_20">#33FFD25A</color>      <!-- Halo tras avatares: amarillo de la guía al 20 % -->
+    <color name="ink_20">#331F2A44</color>       <!-- Separadores finos -->
 </resources>
