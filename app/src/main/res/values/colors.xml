@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Guía de estilo AND-01.2 · 1 · Color y contraste (proposta v1, pendiente de validar en PRV-01). -->
+    <color name="ink">#1F2A44</color>      <!-- Texto y contornos · 13,5:1 sobre crema -->
+    <color name="cream">#FFF8EC</color>    <!-- Fondo (nunca blanco puro) -->
+    <color name="white">#FFFFFF</color>    <!-- Texto sobre primary, success y rest -->
+    <color name="primary">#2B5AA6</color>  <!-- Botón principal · 6,7:1 con texto blanco -->
+    <color name="success">#2F7D4F</color>  <!-- Acierto / Continuar · 5,0:1 con texto blanco -->
+    <color name="help">#FFD25A</color>     <!-- Botón Ayuda · 9,9:1 con tinta -->
+    <color name="rest">#6A4C93</color>     <!-- Botón Descansar · 6,9:1 con blanco -->
+
+    <!-- Caras: ninguna emoción se distingue solo por el color (forma + color). -->
+    <color name="face_joy">#FFD25A</color>
+    <color name="face_sadness">#8DB7F0</color>
+    <color name="face_anger">#F28B6B</color>
+    <color name="face_fear">#B79BE0</color>
+
+    <!-- Mapa de faroles -->
+    <color name="map_sky">#1B2440</color>
+    <color name="map_lamp_on">#FFC94D</color>
+    <color name="map_lamp_off">#8591B0</color>
 </resources>
