@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Casilla vacía de la secuencia de 3 pictogramas. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/cream" />
+    <stroke
+        android:width="@dimen/stroke_dashed"
+        android:color="@color/ink_50"
+        android:dashGap="9dp"
+        android:dashWidth="12dp" />
+</shape>

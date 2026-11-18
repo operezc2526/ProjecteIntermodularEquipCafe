@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    S05-S09 · Mapa de faroles (prototipo Figma 2:219 ... 2:502), cielo nocturno de la guia AND-01.2.
+    Referencia 1280 x 800 dp. El estado de cada nivel (actual / bloqueado / superado), la farola, el
+    contador de estrellas y la barra de progreso los pinta MapActivity.render().
+    clipChildren="false": las colinas (bg_hills) se salen de los limites de su vista a proposito.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/map_sky"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    tools:context=".ui.MapActivity">
+
+    <!-- Barra superior: Descansar · titulo · estrellas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@drawable/bg_topbar"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start|center_vertical"
+            android:paddingStart="32dp">
+
+            <Button
+                android:id="@+id/btnRest"
+                style="@style/Poble.Button.Rest"
+                android:layout_width="@dimen/top_rest_width"
+                android:layout_height="@dimen/top_button_height"
+                android:text="@string/action_rest"
+                app:icon="@drawable/ic_moon" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/Poble.Text.CardName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end|center_vertical"
+            android:paddingEnd="32dp">
+
+            <TextView
+                android:id="@+id/tvStars"
+                style="@style/Poble.Text.Prompt"
+                android:layout_width="@dimen/top_stars_width"
+                android:layout_height="@dimen/top_button_height"
+                android:background="@drawable/bg_pill_neutral"
+                android:contentDescription="@string/cd_stars"
+                android:drawablePadding="12dp"
+                android:drawableStart="@drawable/star_gold"
+                android:gravity="center"
+                android:paddingHorizontal="40dp"
+                tools:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Farolas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/map_side_padding">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/lamp1"
+                android:layout_width="@dimen/lamp_width"
+                android:layout_height="@dimen/lamp_height"
+                android:background="@drawable/lamp_off"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/lamp2"
+                android:layout_width="@dimen/lamp_width"
+                android:layout_height="@dimen/lamp_height"
+                android:background="@drawable/lamp_off"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/lamp3"
+                android:layout_width="@dimen/lamp_width"
+                android:layout_height="@dimen/lamp_height"
+                android:background="@drawable/lamp_off"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <View
+                android:id="@+id/lamp4"
+                android:layout_width="@dimen/lamp_width"
+                android:layout_height="@dimen/lamp_height"
+                android:background="@drawable/lamp_off"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Circulos de nivel unidos por el camino punteado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/map_side_padding">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginEnd="@dimen/map_halo_overlap"
+                android:layout_weight="1"
+                android:background="@drawable/bg_path_dashed"
+                android:importantForAccessibility="no"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/halo1"
+                android:layout_width="@dimen/map_halo_size"
+                android:layout_height="@dimen/map_halo_size"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnLevel1"
+                    style="@style/Poble.Text.Prompt"
+                    android:layout_width="@dimen/map_circle_size"
+                    android:layout_height="@dimen/map_circle_size"
+                    android:background="@drawable/bg_level_locked"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_level_number" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="@dimen/map_halo_overlap"
+                android:layout_weight="1"
+                android:background="@drawable/bg_path_dashed"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginEnd="@dimen/map_halo_overlap"
+                android:layout_weight="1"
+                android:background="@drawable/bg_path_dashed"
+                android:importantForAccessibility="no" />
+
+            <LinearLayout
+                android:id="@+id/halo2"
+                android:layout_width="@dimen/map_halo_size"
+                android:layout_height="@dimen/map_halo_size"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnLevel2"
+                    style="@style/Poble.Text.Prompt"
+                    android:layout_width="@dimen/map_circle_size"
+                    android:layout_height="@dimen/map_circle_size"
+                    android:background="@drawable/bg_level_locked"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_level_number" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="@dimen/map_halo_overlap"
+                android:layout_weight="1"
+                android:background="@drawable/bg_path_dashed"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginEnd="@dimen/map_halo_overlap"
+                android:layout_weight="1"
+                android:background="@drawable/bg_path_dashed"
+                android:importantForAccessibility="no" />
+
+            <LinearLayout
+                android:id="@+id/halo3"
+                android:layout_width="@dimen/map_halo_size"
+                android:layout_height="@dimen/map_halo_size"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnLevel3"
+                    style="@style/Poble.Text.Prompt"
+                    android:layout_width="@dimen/map_circle_size"
+                    android:layout_height="@dimen/map_circle_size"
+                    android:background="@drawable/bg_level_locked"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_level_number" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="@dimen/map_halo_overlap"
+                android:layout_weight="1"
+                android:background="@drawable/bg_path_dashed"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginEnd="@dimen/map_halo_overlap"
+                android:layout_weight="1"
+                android:background="@drawable/bg_path_dashed"
+                android:importantForAccessibility="no" />
+
+            <LinearLayout
+                android:id="@+id/halo4"
+                android:layout_width="@dimen/map_halo_size"
+                android:layout_height="@dimen/map_halo_size"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/btnLevel4"
+                    style="@style/Poble.Text.Prompt"
+                    android:layout_width="@dimen/map_circle_size"
+                    android:layout_height="@dimen/map_circle_size"
+                    android:background="@drawable/bg_level_locked"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_level_number" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="6dp"
+                android:layout_marginStart="@dimen/map_halo_overlap"
+                android:layout_weight="1"
+                android:background="@drawable/bg_path_dashed"
+                android:importantForAccessibility="no"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Nombres de los niveles -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/map_side_padding">
+
+        <TextView
+            android:id="@+id/tvLevelName1"
+            style="@style/Poble.Text.OnDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/level_1_name"
+            android:textSize="@dimen/text_map_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLevelName2"
+            style="@style/Poble.Text.OnDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/level_2_name"
+            android:textSize="@dimen/text_map_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLevelName3"
+            style="@style/Poble.Text.OnDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/level_3_name"
+            android:textSize="@dimen/text_map_label"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLevelName4"
+            style="@style/Poble.Text.OnDark"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/level_4_name"
+            android:textSize="@dimen/text_map_label"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Hueco del prototipo (27 dp) entre los nombres y la cima de la colina -->
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="27dp" />
+
+    <!-- Colinas: ocupan el espacio sobrante (218 dp en 1280 x 800) y anclan su contenido abajo, para que
+         Brisa, el progreso y «Acabar» no queden tapados por las barras del sistema.
+         Brisa · progreso · Acabar (solo con las 4 farolas encendidas) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_hills"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|start"
+            android:paddingBottom="13dp"
+            android:paddingStart="36dp">
+
+            <View
+                android:id="@+id/brisa"
+                android:layout_width="@dimen/brisa_map_size"
+                android:layout_height="@dimen/brisa_map_size"
+                android:background="@drawable/brisa"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/progress_width"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="84dp">
+
+            <TextView
+                android:id="@+id/tvProgress"
+                style="@style/Poble.Text.OnDark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/text_map_progress"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/progress_height"
+                android:layout_marginTop="21dp"
+                android:background="@drawable/bg_progress_track"
+                android:importantForAccessibility="no"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <View
+                    android:id="@+id/progressFill"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="@drawable/bg_progress_fill" />
+
+                <View
+                    android:id="@+id/progressRest"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom|end"
+            android:paddingBottom="18dp"
+            android:paddingEnd="80dp">
+
+            <Button
+                android:id="@+id/btnEnd"
+                style="@style/Poble.Button.Success"
+                android:layout_width="240dp"
+                android:layout_height="@dimen/top_button_height"
+                android:text="@string/action_finish"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

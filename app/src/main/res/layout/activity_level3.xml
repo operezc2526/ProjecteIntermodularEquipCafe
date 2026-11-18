@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.Level3Activity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        style="@style/Poble.Text.Prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/screen_margin"
+        android:gravity="center"
+        android:text="@string/level_3_title" />
+
+    <TextView
+        android:id="@+id/tvDevNote"
+        style="@style/Poble.Text.Adult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/screen_margin"
+        android:gravity="center"
+        android:text="@string/dev_skeleton_note" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/screen_margin"
+        android:layout_marginTop="@dimen/card_gap"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRest"
+            style="@style/Poble.Button.Rest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:layout_weight="1"
+            android:text="@string/action_rest" />
+
+        <Button
+            android:id="@+id/btnComplete"
+            style="@style/Poble.Button.Success"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:layout_weight="1"
+            android:text="@string/dev_complete_level" />
+
+    </LinearLayout>
+
+</LinearLayout>

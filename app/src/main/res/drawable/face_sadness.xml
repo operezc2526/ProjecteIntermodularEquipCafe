@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+    <path
+        android:pathData="M110 213.4C167.106 213.4 213.4 167.106 213.4 110C213.4 52.8939 167.106 6.6001 110 6.6001C52.8938 6.6001 6.60001 52.8939 6.60001 110C6.60001 167.106 52.8938 213.4 110 213.4Z"
+        android:fillColor="#8DB7F0"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="6"/>
+    <path
+        android:pathData="M77 116.6C81.8601 116.6 85.8 112.66 85.8 107.8C85.8 102.94 81.8601 99 77 99C72.1399 99 68.2 102.94 68.2 107.8C68.2 112.66 72.1399 116.6 77 116.6Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M143 116.6C147.86 116.6 151.8 112.66 151.8 107.8C151.8 102.94 147.86 99 143 99C138.14 99 134.2 102.94 134.2 107.8C134.2 112.66 138.14 116.6 143 116.6Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M55 88.0001L99 72.6001"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M165 88.0001L121 72.6001"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M77 167.2C99 142.267 121 142.267 143 167.2"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M156.2 123.2C166.467 139.333 166.467 151.8 156.2 160.6C145.933 151.8 145.933 139.333 156.2 123.2Z"
+        android:fillColor="#CFEBFF"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="4"/>
+</vector>

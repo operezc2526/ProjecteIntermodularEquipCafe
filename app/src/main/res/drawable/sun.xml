@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="170dp"
+    android:height="170dp"
+    android:viewportWidth="170"
+    android:viewportHeight="170">
+    <path
+        android:pathData="M85 17V35.7"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M119 26.1104L109.65 42.305"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M143.89 51L127.695 60.35"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M153 85H134.3"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M143.89 119L127.695 109.65"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M119 143.89L109.65 127.695"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M85 153V134.3"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M51 143.89L60.35 127.695"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M26.1102 119L42.3049 109.65"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M17 85H35.7"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M26.1102 51L42.3049 60.35"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M51 26.1104L60.35 42.305"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M85 120.7C104.717 120.7 120.7 104.716 120.7 84.9998C120.7 65.2832 104.717 49.2998 85 49.2998C65.2835 49.2998 49.3 65.2832 49.3 84.9998C49.3 104.716 65.2835 120.7 85 120.7Z"
+        android:fillColor="#FFC93C"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="6"/>
+</vector>

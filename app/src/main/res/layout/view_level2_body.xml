@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Cuerpo del nivel 2 (S15-S18, prototipo Figma 3:325 ...): escena «se li cau el gelat» 700 x 380, panel del
+    personaje 440 x 380 («Com se sent?») y 3 cartas de cara 240 x 210.
+    Caras de ejemplo (contenta, triste, enfadada) hasta AND-03.3.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <!-- Escena: la ilustracion es el fondo; la leyenda va abajo a la izquierda -->
+        <LinearLayout
+            android:id="@+id/scene"
+            android:layout_width="@dimen/scene_width"
+            android:layout_height="@dimen/scene_height"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/scene_gelat"
+            android:contentDescription="@string/cd_scene_gelat"
+            android:gravity="bottom|start">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="64dp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="24dp"
+                android:background="@drawable/bg_bubble"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingEnd="25dp"
+                android:paddingStart="25dp">
+
+                <View
+                    android:layout_width="@dimen/icon_bubble"
+                    android:layout_height="@dimen/icon_bubble"
+                    android:background="@drawable/ic_speaker"
+                    android:importantForAccessibility="no" />
+
+                <TextView
+                    style="@style/Poble.Text.CardName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:text="@string/l2_scene_caption"
+                    android:textSize="@dimen/text_bubble" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Personaje: cara neutra + pregunta; Brisa en el reintento; cara contenta al acertar -->
+        <LinearLayout
+            android:layout_width="@dimen/character_panel_width"
+            android:layout_height="@dimen/scene_height"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/bg_prompt_card"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/characterFace"
+                android:layout_width="@dimen/character_size"
+                android:layout_height="@dimen/character_size"
+                android:layout_marginTop="53dp"
+                android:background="@drawable/face_neutral"
+                android:importantForAccessibility="no" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/characterSpeaker"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_speaker_halo"
+                    android:gravity="center">
+
+                    <View
+                        android:layout_width="@dimen/icon_small"
+                        android:layout_height="@dimen/icon_small"
+                        android:background="@drawable/ic_speaker"
+                        android:importantForAccessibility="no" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvCharacterText"
+                    style="@style/Poble.Text.CardName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/l2_question"
+                    android:textSize="@dimen/text_character_question" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Caras -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnChoice1"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/face_card_l2_width"
+            android:layout_height="@dimen/face_card_l2_height"
+            android:layout_marginHorizontal="14dp"
+            android:contentDescription="@string/cd_face_joy">
+
+            <View
+                android:layout_width="@dimen/face_l2_size"
+                android:layout_height="@dimen/face_l2_size"
+                android:background="@drawable/face_joy"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnChoice2"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/face_card_l2_width"
+            android:layout_height="@dimen/face_card_l2_height"
+            android:layout_marginHorizontal="14dp"
+            android:contentDescription="@string/cd_face_sadness">
+
+            <View
+                android:layout_width="@dimen/face_l2_size"
+                android:layout_height="@dimen/face_l2_size"
+                android:background="@drawable/face_sadness"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnChoice3"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/face_card_l2_width"
+            android:layout_height="@dimen/face_card_l2_height"
+            android:layout_marginHorizontal="14dp"
+            android:contentDescription="@string/cd_face_anger">
+
+            <View
+                android:layout_width="@dimen/face_l2_size"
+                android:layout_height="@dimen/face_l2_size"
+                android:background="@drawable/face_anger"
+                android:importantForAccessibility="no" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

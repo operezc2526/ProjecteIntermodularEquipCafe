@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Burbuja de Brisa y leyenda de la escena: pastilla crema con contorno fino de tinta. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/cream" />
+    <stroke android:width="@dimen/stroke_thin" android:color="@color/ink_50" />
+    <corners android:radius="39dp" />
+</shape>

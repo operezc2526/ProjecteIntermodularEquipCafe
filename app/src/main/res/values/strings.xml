@@ -1,3 +1,77 @@
 <resources>
-    <string name="app_name">MyApplication</string>
+    <string name="app_name">El Poble de les Emocions</string>
+
+    <!-- Acciones comunes (botones en MAYÚSCULAS vía estilo Poble.Button) -->
+    <string name="action_back">Enrere</string>
+    <string name="action_cancel">Cancel·lar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_exit">Sortir</string>
+    <string name="action_go_map">Anar al mapa</string>
+    <string name="action_back_map">Tornar al mapa</string>
+    <string name="action_rest">Descansar</string>
+
+    <!-- S01 · Perfils -->
+    <string name="profiles_title">Qui juga?</string>
+    <!-- Etiquetas seudónimas de ejemplo (formato ANIMAL-NN); nunca nombres reales de menores.
+         Provisionales: las sustituye el RecyclerView de perfiles de AND-02.2. -->
+    <string name="profiles_demo_1">GUINEU-07</string>
+    <string name="profiles_demo_2">OS-12</string>
+    <string name="profiles_demo_3">LLUNA-04</string>
+    <string name="profiles_new">Nou perfil</string>
+    <string name="profiles_new_plus" translatable="false">+</string>
+    <string name="cd_new_profile">Crear un perfil nou</string>
+    <string name="cd_adult_zone">Zona d\'adults</string>
+
+    <!-- S02-S04 · Acceso por pictogramas -->
+    <string name="access_prompt">Toca els teus 3 dibuixos</string>
+    <string name="cd_slot_format">Casella %1$d de 3</string>
+    <string name="picto_sun">Sol</string>
+    <string name="picto_ball">Pilota</string>
+    <string name="picto_tree">Arbre</string>
+    <string name="picto_house">Casa</string>
+    <string name="picto_fish">Peix</string>
+    <string name="picto_star">Estrella</string>
+
+    <!-- Mapa y niveles -->
+    <string name="map_progress_format">%1$d de 4 faroles enceses</string>
+    <string name="map_progress_done">4 de 4 faroles enceses!</string>
+    <string name="action_finish">Acabar</string>
+    <string name="cd_stars">Estrelles guanyades</string>
+    <string name="cd_level_current_format">Nivell %1$d: %2$s</string>
+    <string name="cd_level_locked_format">Nivell %1$d: %2$s, bloquejat</string>
+    <string name="cd_level_done_format">Nivell %1$d: %2$s, completat</string>
+    <string name="level_1_name">La Plaça</string>
+    <string name="level_2_name">El Parc</string>
+    <string name="level_3_name">La Plaça Gran</string>
+    <string name="level_4_name">El Jardí de la Calma</string>
+    <string name="level_title_format">Nivell %1$d · %2$s</string>
+    <string name="level_3_title">Com l\'ajudem?</string>
+    <string name="level_4_title">Respirem junts</string>
+
+    <!-- Niveles 1 y 2 (S10-S19) -->
+    <string name="action_help">Ajuda</string>
+    <string name="round_format">Ronda %1$d/%2$d</string>
+    <string name="l1_prompt_joy">Toca la cara contenta</string>
+    <string name="l1_hint">Escolta un altre cop</string>
+    <string name="l1_retry">Ho provem un altre cop?</string>
+    <string name="praise">Molt bé!</string>
+    <string name="l2_scene_caption">Se li cau el gelat</string>
+    <string name="l2_question">Com se sent?</string>
+    <string name="l2_retry">Prova-ho un altre cop!</string>
+    <string name="cd_face_joy">Cara contenta</string>
+    <string name="cd_face_sadness">Cara trista</string>
+    <string name="cd_face_anger">Cara enfadada</string>
+    <string name="cd_scene_gelat">Escena: a un nen se li cau el gelat</string>
+
+    <!-- Descansar y final -->
+    <string name="rest_title">Descansem una mica</string>
+    <string name="end_title">Molt bé! Has acabat</string>
+
+    <!-- Zona d'adults -->
+    <string name="adult_zone">Zona d\'adults</string>
+    <string name="adult_pin_prompt">Introdueix el PIN d\'adult</string>
+    <string name="adult_panel_profiles">Perfils</string>
+    <string name="adult_new_profile">Nou perfil</string>
+    <string name="adult_export">Exportar dades (JSON)</string>
+    <string name="export_title">Exportar dades</string>
 </resources>

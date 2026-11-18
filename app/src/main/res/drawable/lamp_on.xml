@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="110dp"
+    android:height="165dp"
+    android:viewportWidth="110"
+    android:viewportHeight="165">
+    <path
+        android:pathData="M56.8333 64.1666H53.1666C51.6478 64.1666 50.4166 65.3978 50.4166 66.9166V162.25C50.4166 163.769 51.6478 165 53.1666 165H56.8333C58.3521 165 59.5833 163.769 59.5833 162.25V66.9166C59.5833 65.3978 58.3521 64.1666 56.8333 64.1666Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M55 89.8334C82.3381 89.8334 104.5 67.6715 104.5 40.3334C104.5 12.9953 82.3381 -9.16663 55 -9.16663C27.6619 -9.16663 5.5 12.9953 5.5 40.3334C5.5 67.6715 27.6619 89.8334 55 89.8334Z"
+        android:fillColor="#FFE27A"
+        android:fillAlpha="0.5"/>
+    <path
+        android:pathData="M60.5 20.1666H49.5C42.4123 20.1666 36.6666 25.9123 36.6666 33V49.5C36.6666 56.5876 42.4123 62.3333 49.5 62.3333H60.5C67.5876 62.3333 73.3333 56.5876 73.3333 49.5V33C73.3333 25.9123 67.5876 20.1666 60.5 20.1666Z"
+        android:fillColor="#FFC93C"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="5"/>
+    <path
+        android:pathData="M31.1666 22L55 5.5L78.8333 22H31.1666Z"
+        android:fillColor="#1F2A44"/>
+</vector>

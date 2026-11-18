@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Guía de estilo AND-01.2 · 3 · Botones y medidas táctiles. -->
+    <dimen name="screen_margin">24dp</dimen>           <!-- Margen mínimo a la vora de pantalla -->
+    <dimen name="card_gap">24dp</dimen>                <!-- Separación mínima entre cartas de respuesta -->
+    <dimen name="card_gap_half">12dp</dimen>           <!-- Margen a cada lado de un elemento: 2 x 12 = 24 dp entre vecinos -->
+    <dimen name="button_min_height">72dp</dimen>       <!-- Botones de acción: alto >= 72 dp -->
+    <dimen name="button_icon_size">40dp</dimen>        <!-- Icono de botón >= 40 dp -->
+    <dimen name="level_circle_size">112dp</dimen>      <!-- Cercle de nivell -->
+    <dimen name="answer_card_size">140dp</dimen>       <!-- Carta de resposta 140 x 140 dp -->
+    <dimen name="hold_balloon_min_size">200dp</dimen>  <!-- Globus-flor (mantener pulsado) >= 200 dp -->
+    <dimen name="face_outline_width">4dp</dimen>       <!-- Contorno de las caras -->
+
+    <!-- Guía de estilo AND-01.2 · 2 · Tipografía (sp, respetan el tamaño de fuente del sistema). -->
+    <dimen name="text_prompt">32sp</dimen>   <!-- Consigna · Bold -->
+    <dimen name="text_button">24sp</dimen>   <!-- Botón · Bold -->
+    <dimen name="text_counter">20sp</dimen>  <!-- Comptador · Regular -->
+    <dimen name="text_adult">16sp</dimen>    <!-- Menú de adultos (PIN) · registro neutro -->
+
+    <!-- Medidas del prototipo Figma (1 px de Figma = 1 dp; pantalla de referencia 1280 x 800 dp = Nexus 10) -->
+    <dimen name="corner_card">24dp</dimen>
+    <dimen name="corner_button">24dp</dimen>
+    <dimen name="stroke_card">4dp</dimen>             <!-- Contorno de cartas y caras: 4 dp en tinta (AND-01.2) -->
+    <dimen name="stroke_dashed">3dp</dimen>
+    <dimen name="stroke_thin">2dp</dimen>
+    <dimen name="profile_card_width">250dp</dimen>
+    <dimen name="profile_card_height">330dp</dimen>
+    <dimen name="avatar_halo_size">180dp</dimen>   <!-- Círculo suave tras el avatar -->
+    <dimen name="avatar_size">148dp</dimen>
+    <dimen name="avatar_size_small">96dp</dimen>
+    <dimen name="brisa_width">140dp</dimen>
+    <dimen name="brisa_height">100dp</dimen>
+    <dimen name="picto_card_size">150dp</dimen>
+    <dimen name="picto_size">104dp</dimen>
+    <dimen name="picto_slot_size">130dp</dimen>
+    <dimen name="picto_slot_picto_size">92dp</dimen>
+    <dimen name="icon_prompt">48dp</dimen>
+    <dimen name="icon_small">32dp</dimen>
+    <dimen name="text_card_name">24sp</dimen>
+    <dimen name="text_plus">64sp</dimen>
+
+    <!-- Mapa (S05-S09) -->
+    <dimen name="top_bar_height">112dp</dimen>
+    <dimen name="top_button_height">80dp</dimen>
+    <dimen name="top_rest_width">250dp</dimen>
+    <dimen name="top_stars_width">190dp</dimen>
+    <dimen name="lamp_width">110dp</dimen>
+    <dimen name="lamp_height">165dp</dimen>
+    <dimen name="map_circle_size">130dp</dimen>
+    <dimen name="map_halo_size">168dp</dimen>
+    <dimen name="map_halo_overlap">-19dp</dimen>           <!-- -(halo - circulo) / 2: el camino llega hasta el borde del circulo -->
+    <dimen name="map_side_padding">54dp</dimen>
+    <dimen name="progress_width">600dp</dimen>
+    <dimen name="progress_height">34dp</dimen>
+    <dimen name="brisa_map_size">130dp</dimen>
+    <dimen name="text_level_number">56sp</dimen>
+    <dimen name="text_map_label">20sp</dimen>
+    <dimen name="text_map_progress">22sp</dimen>
+    <dimen name="icon_level_state">60dp</dimen>
+
+    <!-- Niveles 1 y 2 (S10-S19) -->
+    <dimen name="top_help_width">200dp</dimen>
+    <dimen name="dot_size">16dp</dimen>
+    <dimen name="dot_size_current">24dp</dimen>
+    <dimen name="dot_gap">10dp</dimen>
+    <dimen name="prompt_card_width">760dp</dimen>
+    <dimen name="prompt_card_height">130dp</dimen>
+    <dimen name="speaker_halo_size">84dp</dimen>
+    <dimen name="icon_speaker">48dp</dimen>
+    <dimen name="star_praise_size">64dp</dimen>
+    <dimen name="face_card_l1_size">300dp</dimen>
+    <dimen name="face_l1_size">220dp</dimen>
+    <dimen name="face_card_l2_width">240dp</dimen>
+    <dimen name="face_card_l2_height">210dp</dimen>
+    <dimen name="face_l2_size">160dp</dimen>
+    <dimen name="scene_width">700dp</dimen>
+    <dimen name="scene_height">380dp</dimen>
+    <dimen name="character_panel_width">440dp</dimen>
+    <dimen name="character_size">200dp</dimen>
+    <dimen name="brisa_level_size">140dp</dimen>
+    <dimen name="bubble_height">78dp</dimen>
+    <dimen name="icon_bubble">34dp</dimen>
+    <dimen name="text_praise">48sp</dimen>
+    <dimen name="text_bubble">24sp</dimen>
+    <dimen name="text_character_question">28sp</dimen>
+    <dimen name="rest_brisa_size">240dp</dimen>
+    <dimen name="rest_button_width">340dp</dimen>
+    <dimen name="rest_button_height">100dp</dimen>
+</resources>

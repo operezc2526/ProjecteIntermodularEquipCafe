@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ===== Texto (AND-01.2 · 2) ===== -->
+    <!-- parent="" evita el padre implícito «Poble» (por el punto del nombre), que no existe. -->
+    <style name="Poble.Text" parent="">
+        <item name="android:fontFamily">@font/andika</item>
+        <item name="android:textColor">@color/ink</item>
+    </style>
+
+    <!-- Consigna: 32 sp, Bold, MAYÚSCULAS DE PALO -->
+    <style name="Poble.Text.Prompt">
+        <item name="android:textSize">@dimen/text_prompt</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Contador (RONDA 3/8, CICLE 1/3): 20 sp, Regular -->
+    <style name="Poble.Text.Counter">
+        <item name="android:textSize">@dimen/text_counter</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Texto sobre fondo oscuro (cielo del mapa): crema -->
+    <style name="Poble.Text.OnDark">
+        <item name="android:textColor">@color/cream</item>
+    </style>
+
+    <!-- Etiqueta de carta (ID seudónimo del perfil, nombre del pictograma): 24 sp, Bold -->
+    <style name="Poble.Text.CardName">
+        <item name="android:textSize">@dimen/text_card_name</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Zona de adultos: registro neutro, 16 sp -->
+    <style name="Poble.Text.Adult">
+        <item name="android:textSize">@dimen/text_adult</item>
+    </style>
+
+    <!-- ===== Cartas (AND-01.2 · 3): contenedor táctil con fondo propio, sin ImageView ===== -->
+    <style name="Poble.Card" parent="">
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="Poble.Card.Dashed">
+        <item name="android:background">@drawable/bg_card_dashed</item>
+    </style>
+
+    <!-- ===== Botones (AND-01.2 · 3): alto >= 72 dp, icono >= 40 dp, texto 24 sp Bold ===== -->
+    <style name="Poble.Button" parent="Widget.Material3.Button">
+        <item name="android:minHeight">@dimen/button_min_height</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:fontFamily">@font/andika</item>
+        <item name="android:textSize">@dimen/text_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="iconSize">@dimen/button_icon_size</item>
+    </style>
+
+    <!-- Principal (6,7:1 con texto blanco) -->
+    <style name="Poble.Button.Primary">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <!-- Continuar / acierto (5,0:1 con texto blanco) -->
+    <style name="Poble.Button.Success">
+        <item name="backgroundTint">@color/success</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <!-- Ajuda (9,9:1 con tinta) -->
+    <style name="Poble.Button.Help">
+        <item name="backgroundTint">@color/help</item>
+        <item name="android:textColor">@color/ink</item>
+        <item name="iconTint">@color/ink</item>
+    </style>
+
+    <!-- Descansar (6,9:1 con blanco) -->
+    <style name="Poble.Button.Rest">
+        <item name="backgroundTint">@color/rest</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+</resources>

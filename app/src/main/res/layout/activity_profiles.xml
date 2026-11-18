@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    S01 · Perfils (prototipo Figma 2:2). Pantalla de referencia 1280 x 800 dp.
+    Cartas de perfil 250 x 330 dp con avatar + ID seudónimo (ANIMAL-NN, nunca nombre real),
+    carta punteada «Nou perfil» y pastilla neutra «Zona d'adults» abajo a la derecha.
+    Provisional: las tres cartas son de ejemplo hasta el RecyclerView de AND-02.2.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ProfilesActivity">
+
+    <!-- Cabecera: Brisa a la izquierda, título centrado (hueco simétrico a la derecha) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/screen_margin"
+        android:layout_marginTop="@dimen/screen_margin"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/brisa"
+            android:layout_width="@dimen/brisa_width"
+            android:layout_height="@dimen/brisa_height"
+            android:background="@drawable/brisa"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/Poble.Text.Prompt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/profiles_title" />
+
+        <!-- Hueco del mismo ancho que Brisa para que el título quede centrado -->
+        <Space
+            android:layout_width="@dimen/brisa_width"
+            android:layout_height="1dp" />
+    </LinearLayout>
+
+    <!-- Cartas -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/btnProfile"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/profile_card_width"
+            android:layout_height="@dimen/profile_card_height"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:contentDescription="@string/profiles_demo_1">
+
+            <LinearLayout
+                android:layout_width="@dimen/avatar_halo_size"
+                android:layout_height="@dimen/avatar_halo_size"
+                android:background="@drawable/bg_avatar_halo"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="@dimen/avatar_size"
+                    android:layout_height="@dimen/avatar_size"
+                    android:background="@drawable/avatar_guineu"
+                    android:importantForAccessibility="no" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Poble.Text.CardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_gap"
+                android:text="@string/profiles_demo_1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnProfile2"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/profile_card_width"
+            android:layout_height="@dimen/profile_card_height"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:contentDescription="@string/profiles_demo_2">
+
+            <LinearLayout
+                android:layout_width="@dimen/avatar_halo_size"
+                android:layout_height="@dimen/avatar_halo_size"
+                android:background="@drawable/bg_avatar_halo"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="@dimen/avatar_size"
+                    android:layout_height="@dimen/avatar_size"
+                    android:background="@drawable/avatar_os"
+                    android:importantForAccessibility="no" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Poble.Text.CardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_gap"
+                android:text="@string/profiles_demo_2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btnProfile3"
+            style="@style/Poble.Card"
+            android:layout_width="@dimen/profile_card_width"
+            android:layout_height="@dimen/profile_card_height"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:contentDescription="@string/profiles_demo_3">
+
+            <LinearLayout
+                android:layout_width="@dimen/avatar_halo_size"
+                android:layout_height="@dimen/avatar_halo_size"
+                android:background="@drawable/bg_avatar_halo"
+                android:gravity="center">
+
+                <View
+                    android:layout_width="@dimen/avatar_size"
+                    android:layout_height="@dimen/avatar_size"
+                    android:background="@drawable/avatar_lluna"
+                    android:importantForAccessibility="no" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Poble.Text.CardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_gap"
+                android:text="@string/profiles_demo_3" />
+        </LinearLayout>
+
+        <!-- Carta de acción secundaria: «+ Nou perfil» (lleva al PIN: crear perfiles es cosa de adultos) -->
+        <LinearLayout
+            android:id="@+id/btnNewProfile"
+            style="@style/Poble.Card.Dashed"
+            android:layout_width="@dimen/profile_card_width"
+            android:layout_height="@dimen/profile_card_height"
+            android:layout_marginHorizontal="@dimen/card_gap_half"
+            android:contentDescription="@string/cd_new_profile">
+
+            <TextView
+                style="@style/Poble.Text.Prompt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:importantForAccessibility="no"
+                android:text="@string/profiles_new_plus"
+                android:textSize="@dimen/text_plus" />
+
+            <TextView
+                style="@style/Poble.Text.CardName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/card_gap_half"
+                android:text="@string/profiles_new" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Pie: Zona d'adults (registro neutro, fuera del flujo del infante) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/screen_margin"
+        android:layout_marginBottom="@dimen/screen_margin"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/btnAdultZone"
+            style="@style/Poble.Text.Adult"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_min_height"
+            android:background="@drawable/bg_pill_neutral"
+            android:clickable="true"
+            android:contentDescription="@string/cd_adult_zone"
+            android:drawablePadding="12dp"
+            android:drawableStart="@drawable/ic_lock"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingHorizontal="28dp"
+            android:text="@string/adult_zone"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

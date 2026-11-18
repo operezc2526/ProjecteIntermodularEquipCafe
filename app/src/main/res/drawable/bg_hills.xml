@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Colinas del mapa (prototipo: Turó 1600 x 520 en x=-160 y Turó 2 1100 x 420 en x=500).
+    Se salen de los limites de la vista a proposito: el contenedor raiz usa clipChildren="false".
+    Medidas en dp absolutos de la pantalla de referencia (1280 dp de ancho): es decoracion.
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="1600dp"
+        android:height="520dp"
+        android:gravity="top|start"
+        android:left="-160dp"
+        android:top="0dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/map_hill_far" />
+        </shape>
+    </item>
+    <item
+        android:width="1100dp"
+        android:height="420dp"
+        android:gravity="top|start"
+        android:left="500dp"
+        android:top="50dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/map_hill_near" />
+        </shape>
+    </item>
+</layer-list>

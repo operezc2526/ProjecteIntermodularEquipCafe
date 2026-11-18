@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Camino punteado entre niveles (la vista que lo usa mide 6 dp de alto). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="line">
+    <stroke
+        android:width="6dp"
+        android:color="@color/map_lamp_off"
+        android:dashGap="14dp"
+        android:dashWidth="22dp" />
+</shape>
