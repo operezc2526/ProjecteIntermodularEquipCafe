@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportación de Figma (picto_star.svg) con el mismo nombre. -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-    <solid android:color="@color/face_joy" />
-    <stroke android:width="@dimen/stroke_card" android:color="@color/ink" />
-    
-</shape>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="104dp"
+    android:height="104dp"
+    android:viewportWidth="104"
+    android:viewportHeight="104">
+    <path
+        android:pathData="M52 6.23999L64.48 37.44L97.76 39.52L71.76 60.32L81.12 93.6L52 74.88L22.88 93.6L32.24 60.32L6.23999 39.52L39.52 37.44L52 6.23999Z"
+        android:fillColor="#FFC93C"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"/>
+</vector>

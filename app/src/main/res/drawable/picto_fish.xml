@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportación de Figma (picto_fish.svg) con el mismo nombre. -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-    <solid android:color="@color/face_sadness" />
-    <stroke android:width="@dimen/stroke_card" android:color="@color/ink" />
-    
-</shape>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="104dp"
+    android:height="104dp"
+    android:viewportWidth="104"
+    android:viewportHeight="104">
+    <path
+        android:pathData="M45.7601 72.8C62.9913 72.8 76.9601 63.4875 76.9601 52C76.9601 40.5125 62.9913 31.2 45.7601 31.2C28.5288 31.2 14.5601 40.5125 14.5601 52C14.5601 63.4875 28.5288 72.8 45.7601 72.8Z"
+        android:fillColor="#5B9BD5"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M74.8799 52L97.7599 35.36V68.64L74.8799 52Z"
+        android:fillColor="#5B9BD5"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M31.2 50.96C33.4975 50.96 35.36 49.0975 35.36 46.8C35.36 44.5025 33.4975 42.64 31.2 42.64C28.9025 42.64 27.04 44.5025 27.04 46.8C27.04 49.0975 28.9025 50.96 31.2 50.96Z"
+        android:fillColor="#1F2A44"/>
+</vector>

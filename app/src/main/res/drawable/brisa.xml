@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportación de Figma (brisa.svg) con el mismo nombre. -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-    <solid android:color="#E3F2FD" />
-    <stroke android:width="@dimen/stroke_card" android:color="@color/ink" />
-    
-</shape>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="150dp"
+    android:height="150dp"
+    android:viewportWidth="150"
+    android:viewportHeight="150">
+    <path
+        android:pathData="M48 120C63.7401 120 76.5 107.24 76.5 91.5C76.5 75.7599 63.7401 63 48 63C32.2599 63 19.5 75.7599 19.5 91.5C19.5 107.24 32.2599 120 48 120Z"
+        android:fillColor="#E3F4FD"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="6"/>
+    <path
+        android:pathData="M81 108C100.882 108 117 91.8823 117 72C117 52.1177 100.882 36 81 36C61.1177 36 45 52.1177 45 72C45 91.8823 61.1177 108 81 108Z"
+        android:fillColor="#E3F4FD"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="6"/>
+    <path
+        android:pathData="M111 121.5C125.912 121.5 138 109.412 138 94.5C138 79.5883 125.912 67.5 111 67.5C96.0883 67.5 84 79.5883 84 94.5C84 109.412 96.0883 121.5 111 121.5Z"
+        android:fillColor="#E3F4FD"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="6"/>
+    <path
+        android:pathData="M48 117.75C62.4975 117.75 74.25 105.997 74.25 91.5C74.25 77.0025 62.4975 65.25 48 65.25C33.5025 65.25 21.75 77.0025 21.75 91.5C21.75 105.997 33.5025 117.75 48 117.75Z"
+        android:fillColor="#E3F4FD"/>
+    <path
+        android:pathData="M81 105.75C99.6396 105.75 114.75 90.6396 114.75 72C114.75 53.3604 99.6396 38.25 81 38.25C62.3604 38.25 47.25 53.3604 47.25 72C47.25 90.6396 62.3604 105.75 81 105.75Z"
+        android:fillColor="#E3F4FD"/>
+    <path
+        android:pathData="M111 119.25C124.669 119.25 135.75 108.169 135.75 94.5C135.75 80.831 124.669 69.75 111 69.75C97.331 69.75 86.25 80.831 86.25 94.5C86.25 108.169 97.331 119.25 111 119.25Z"
+        android:fillColor="#E3F4FD"/>
+    <path
+        android:pathData="M111 97.5H46.5V120H111V97.5Z"
+        android:fillColor="#E3F4FD"/>
+    <path
+        android:pathData="M69 88.875C71.6924 88.875 73.875 86.6924 73.875 84C73.875 81.3076 71.6924 79.125 69 79.125C66.3076 79.125 64.125 81.3076 64.125 84C64.125 86.6924 66.3076 88.875 69 88.875Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M94.5 88.875C97.1924 88.875 99.375 86.6924 99.375 84C99.375 81.3076 97.1924 79.125 94.5 79.125C91.8076 79.125 89.625 81.3076 89.625 84C89.625 86.6924 91.8076 88.875 94.5 88.875Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M73.5 97.5C79.5 103.5 85.5 103.5 91.5 97.5"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M61.5 99.75C64.3995 99.75 66.75 97.3995 66.75 94.5C66.75 91.6005 64.3995 89.25 61.5 89.25C58.6005 89.25 56.25 91.6005 56.25 94.5C56.25 97.3995 58.6005 99.75 61.5 99.75Z"
+        android:fillColor="#FF9AA2"
+        android:fillAlpha="0.6"/>
+    <path
+        android:pathData="M103.5 99.75C106.399 99.75 108.75 97.3995 108.75 94.5C108.75 91.6005 106.399 89.25 103.5 89.25C100.601 89.25 98.25 91.6005 98.25 94.5C98.25 97.3995 100.601 99.75 103.5 99.75Z"
+        android:fillColor="#FF9AA2"
+        android:fillAlpha="0.6"/>
+    <path
+        android:pathData="M127.5 43.5C140.5 39.5 146 44 144 57C142 66 136.5 69 127.5 66"
+        android:strokeColor="#8ECAE6"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"/>
+    <path
+        android:pathData="M7.5 72H25.5M3 84H19.5"
+        android:strokeColor="#8ECAE6"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"/>
+</vector>

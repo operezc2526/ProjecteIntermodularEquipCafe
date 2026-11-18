@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportacion de Figma (lamp_off.svg), 110 x 165. -->
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:width="10dp"
-        android:height="105dp"
-        android:gravity="center_horizontal|bottom">
-        <shape android:shape="rectangle">
-            <solid android:color="@color/map_lamp_off" />
-        </shape>
-    </item>
-    <item
-        android:width="48dp"
-        android:height="64dp"
-        android:gravity="center_horizontal|top"
-        android:top="16dp">
-        <shape android:shape="rectangle">
-            <solid android:color="@color/map_lamp_off" />
-            <stroke android:width="3dp" android:color="@color/cream" />
-            <corners android:radius="12dp" />
-        </shape>
-    </item>
-    <item
-        android:width="64dp"
-        android:height="14dp"
-        android:gravity="center_horizontal|top">
-        <shape android:shape="rectangle">
-            <solid android:color="@color/cream" />
-            <corners android:radius="6dp" />
-        </shape>
-    </item>
-</layer-list>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="110dp"
+    android:height="165dp"
+    android:viewportWidth="110"
+    android:viewportHeight="165">
+    <path
+        android:pathData="M56.8333 64.1666H53.1667C51.6479 64.1666 50.4167 65.3978 50.4167 66.9166V162.25C50.4167 163.769 51.6479 165 53.1667 165H56.8333C58.3521 165 59.5833 163.769 59.5833 162.25V66.9166C59.5833 65.3978 58.3521 64.1666 56.8333 64.1666Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M60.5 20.1666H49.5C42.4124 20.1666 36.6667 25.9123 36.6667 33V49.5C36.6667 56.5876 42.4124 62.3333 49.5 62.3333H60.5C67.5877 62.3333 73.3333 56.5876 73.3333 49.5V33C73.3333 25.9123 67.5877 20.1666 60.5 20.1666Z"
+        android:fillColor="#8E86A0"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="5"/>
+    <path
+        android:pathData="M31.1667 22L55 5.5L78.8333 22H31.1667Z"
+        android:fillColor="#1F2A44"/>
+</vector>

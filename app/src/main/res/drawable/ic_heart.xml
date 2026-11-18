@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:pathData="M32 53.9998C8.00003 35.9998 6.00003 17.9998 18 11.9998C26 7.99979 32 13.9998 32 17.9998C32 13.9998 38 7.99979 46 11.9998C58 17.9998 56 35.9998 32 53.9998Z"
+        android:fillColor="#FF8FA3"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"/>
+</vector>

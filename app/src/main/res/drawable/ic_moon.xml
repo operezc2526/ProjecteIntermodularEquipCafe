@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportacion de Figma (ic_moon.svg). Material Icons (Apache 2.0). Se tiñe con iconTint. -->
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="40dp"
     android:height="40dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:viewportWidth="40"
+    android:viewportHeight="40">
     <path
-        android:fillColor="@color/white"
-        android:pathData="M12,3c-4.97,0 -9,4.03 -9,9s4.03,9 9,9 9,-4.03 9,-9c0,-0.46 -0.04,-0.92 -0.1,-1.36 -0.98,1.37 -2.58,2.26 -4.4,2.26 -2.98,0 -5.4,-2.42 -5.4,-5.4 0,-1.81 0.89,-3.42 2.26,-4.4 -0.44,-0.06 -0.9,-0.1 -1.36,-0.1z" />
+        android:pathData="M27.5 25.8333C25.374 26.1049 23.2139 25.8254 21.2271 25.0215C19.2404 24.2176 17.4937 22.9164 16.1548 21.2428C14.8159 19.5692 13.9298 17.5795 13.5817 15.4647C13.2335 13.3499 13.435 11.1811 14.1667 9.16663C11.9649 9.44797 9.87769 10.3105 8.11966 11.6657C6.36164 13.0208 4.99617 14.8197 4.1636 16.8773C3.33104 18.935 3.06141 21.1772 3.38242 23.3736C3.70343 25.5699 4.60351 27.6412 5.99015 29.3745C7.37679 31.1078 9.19996 32.4406 11.2723 33.2359C13.3446 34.0312 15.5914 34.2604 17.7816 33.8998C19.9718 33.5392 22.0265 32.6019 23.7345 31.1842C25.4425 29.7666 26.7422 27.9196 27.5 25.8333Z"
+        android:fillColor="#1F2A44"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="3"
+        android:strokeLineJoin="round"/>
 </vector>

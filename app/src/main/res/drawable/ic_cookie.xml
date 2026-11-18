@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:pathData="M28 8C21.6348 8 15.5303 10.5286 11.0294 15.0294C6.52856 19.5303 4 25.6348 4 32C4 38.3652 6.52856 44.4697 11.0294 48.9706C15.5303 53.4714 21.6348 56 28 56V8Z"
+        android:fillColor="#E9B872"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M36 8C42.3652 8 48.4697 10.5286 52.9706 15.0294C57.4714 19.5303 60 25.6348 60 32C60 38.3652 57.4714 44.4697 52.9706 48.9706C48.4697 53.4714 42.3652 56 36 56V8Z"
+        android:fillColor="#E9B872"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M18 29C19.6569 29 21 27.6569 21 26C21 24.3431 19.6569 23 18 23C16.3431 23 15 24.3431 15 26C15 27.6569 16.3431 29 18 29Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M20 45C21.6569 45 23 43.6569 23 42C23 40.3431 21.6569 39 20 39C18.3431 39 17 40.3431 17 42C17 43.6569 18.3431 45 20 45Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M46 27C47.6569 27 49 25.6569 49 24C49 22.3431 47.6569 21 46 21C44.3431 21 43 22.3431 43 24C43 25.6569 44.3431 27 46 27Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M44 43C45.6569 43 47 41.6569 47 40C47 38.3431 45.6569 37 44 37C42.3431 37 41 38.3431 41 40C41 41.6569 42.3431 43 44 43Z"
+        android:fillColor="#1F2A44"/>
+</vector>

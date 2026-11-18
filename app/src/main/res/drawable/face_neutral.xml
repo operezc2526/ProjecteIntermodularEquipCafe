@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportacion de Figma (face_neutral.svg). Forma + color: la emocion no depende solo del color. -->
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="220dp"
-    android:height="220dp"
-    android:viewportWidth="100"
-    android:viewportHeight="100">
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
     <path
-        android:fillColor="#E9DCC3"
-        android:strokeColor="@color/ink"
-        android:strokeWidth="3"
-        android:pathData="M50,4 A46,46 0 1,1 49.99,4 Z" />
-    <path android:fillColor="@color/ink" android:pathData="M36,44 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
-    <path android:fillColor="@color/ink" android:pathData="M64,44 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
-    <path android:strokeColor="@color/ink" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M36,68 L64,68" /></vector>
+        android:pathData="M100 194C151.915 194 194 151.915 194 100C194 48.0852 151.915 6 100 6C48.0852 6 6 48.0852 6 100C6 151.915 48.0852 194 100 194Z"
+        android:fillColor="#E3D6BC"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="6"/>
+    <path
+        android:pathData="M70 106C74.4183 106 78 102.418 78 98C78 93.5817 74.4183 90 70 90C65.5817 90 62 93.5817 62 98C62 102.418 65.5817 106 70 106Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M130 106C134.418 106 138 102.418 138 98C138 93.5817 134.418 90 130 90C125.582 90 122 93.5817 122 98C122 102.418 125.582 106 130 106Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M72 142H128"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>

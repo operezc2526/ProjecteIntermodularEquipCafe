@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportación de Figma (ic_speaker.svg). Material Icons (Apache 2.0). -->
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="48dp"
-    android:height="48dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
+    android:width="34dp"
+    android:height="34dp"
+    android:viewportWidth="34"
+    android:viewportHeight="34">
     <path
-        android:fillColor="@color/ink"
-        android:pathData="M3,9v6h4l5,5V4L7,9H3zM16.5,12c0,-1.77 -1.02,-3.29 -2.5,-4.03v8.05c1.48,-0.73 2.5,-2.25 2.5,-4.02zM14,3.23v2.06c2.89,0.86 5,3.54 5,6.71s-2.11,5.85 -5,6.71v2.06c4.01,-0.91 7,-4.49 7,-8.77s-2.99,-7.86 -7,-8.77z" />
+        android:pathData="M5.66663 13.4584H11.3333L18.4166 7.79175V26.2084L11.3333 20.5417H5.66663V13.4584Z"
+        android:fillColor="#1F2A44"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="2"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M22.6666 12.0417C23.4061 12.6393 24.0025 13.3947 24.4123 14.2526C24.822 15.1105 25.0347 16.0492 25.0347 17C25.0347 17.9508 24.822 18.8895 24.4123 19.7474C24.0025 20.6053 23.4061 21.3607 22.6666 21.9583M26.2083 8.5C27.4142 9.56354 28.3801 10.8715 29.0416 12.337C29.7032 13.8026 30.0453 15.3921 30.0453 17C30.0453 18.6079 29.7032 20.1974 29.0416 21.663C28.3801 23.1285 27.4142 24.4365 26.2083 25.5"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"/>
 </vector>

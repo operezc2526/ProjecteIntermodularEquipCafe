@@ -1,7 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportación de Figma (avatar_guineu.svg) con el mismo nombre. -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-    <solid android:color="#F4A259" />
-    <stroke android:width="@dimen/stroke_card" android:color="@color/ink" />
-    
-</shape>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="180dp"
+    android:viewportWidth="180"
+    android:viewportHeight="180">
+    <path
+        android:pathData="M90 176.4C137.717 176.4 176.4 137.717 176.4 90C176.4 42.2826 137.717 3.60001 90 3.60001C42.2826 3.60001 3.60001 42.2826 3.60001 90C3.60001 137.717 42.2826 176.4 90 176.4Z"
+        android:fillColor="#FFF1D0"/>
+    <path
+        android:pathData="M27 75.6L36 18L81 48.6L27 75.6Z"
+        android:fillColor="#F4A259"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M153 75.6L144 18L99 48.6L153 75.6Z"
+        android:fillColor="#F4A259"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M90 163.8C124.794 163.8 153 135.594 153 100.8C153 66.006 124.794 37.8 90 37.8C55.2061 37.8 27 66.006 27 100.8C27 135.594 55.2061 163.8 90 163.8Z"
+        android:fillColor="#F4A259"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M90 151.2C63.6 151.2 49.2 136.2 46.8 106.2C75.6 118.2 104.4 118.2 133.2 106.2C130.8 136.2 116.4 151.2 90 151.2Z"
+        android:fillColor="WHITE"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="5"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M66.6 99.9C70.0794 99.9 72.9 97.0794 72.9 93.6C72.9 90.1206 70.0794 87.3 66.6 87.3C63.1206 87.3 60.3 90.1206 60.3 93.6C60.3 97.0794 63.1206 99.9 66.6 99.9Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M113.4 99.9C116.879 99.9 119.7 97.0794 119.7 93.6C119.7 90.1206 116.879 87.3 113.4 87.3C109.921 87.3 107.1 90.1206 107.1 93.6C107.1 97.0794 109.921 99.9 113.4 99.9Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M90 135C93.9764 135 97.2 131.776 97.2 127.8C97.2 123.824 93.9764 120.6 90 120.6C86.0235 120.6 82.8 123.824 82.8 127.8C82.8 131.776 86.0235 135 90 135Z"
+        android:fillColor="#1F2A44"/>
+</vector>

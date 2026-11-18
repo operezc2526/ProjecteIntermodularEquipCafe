@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportacion de Figma (face_anger.svg). Forma + color: la emocion no depende solo del color. -->
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="220dp"
     android:height="220dp"
-    android:viewportWidth="100"
-    android:viewportHeight="100">
+    android:viewportWidth="220"
+    android:viewportHeight="220">
     <path
-        android:fillColor="@color/face_anger"
-        android:strokeColor="@color/ink"
-        android:strokeWidth="3"
-        android:pathData="M50,4 A46,46 0 1,1 49.99,4 Z" />
-    <path android:strokeColor="@color/ink" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M24,32 L42,42" />
-    <path android:strokeColor="@color/ink" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M76,32 L58,42" />
-    <path android:fillColor="@color/ink" android:pathData="M36,52 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
-    <path android:fillColor="@color/ink" android:pathData="M64,52 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
-    <path android:strokeColor="@color/ink" android:strokeWidth="4" android:strokeLineCap="round" android:pathData="M32,74 L41,68 L50,74 L59,68 L68,74" /></vector>
+        android:pathData="M110 213.4C167.106 213.4 213.4 167.106 213.4 110C213.4 52.8939 167.106 6.6001 110 6.6001C52.8937 6.6001 6.59998 52.8939 6.59998 110C6.59998 167.106 52.8937 213.4 110 213.4Z"
+        android:fillColor="#F28B6B"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="6"/>
+    <path
+        android:pathData="M52.8 74.8L101.2 99"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M167.2 74.8L118.8 99"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M79.2 124.3C83.4526 124.3 86.9 120.852 86.9 116.6C86.9 112.347 83.4526 108.9 79.2 108.9C74.9474 108.9 71.5 112.347 71.5 116.6C71.5 120.852 74.9474 124.3 79.2 124.3Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M140.8 124.3C145.053 124.3 148.5 120.852 148.5 116.6C148.5 112.347 145.053 108.9 140.8 108.9C136.547 108.9 133.1 112.347 133.1 116.6C133.1 120.852 136.547 124.3 140.8 124.3Z"
+        android:fillColor="#1F2A44"/>
+    <path
+        android:pathData="M72.6 162.8L91.3 147.4L110 162.8L128.7 147.4L147.4 162.8"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"/>
+</vector>

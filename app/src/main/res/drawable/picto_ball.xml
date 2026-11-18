@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- PLACEHOLDER: se sustituye por la exportación de Figma (picto_ball.svg) con el mismo nombre. -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-    <solid android:color="@color/face_anger" />
-    <stroke android:width="@dimen/stroke_card" android:color="@color/ink" />
-    
-</shape>
+<!-- Generado desde design/figma-svg-real. Tinta #3B2F4A -> #1F2A44 (guia AND-01.2). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="104dp"
+    android:height="104dp"
+    android:viewportWidth="104"
+    android:viewportHeight="104">
+    <path
+        android:pathData="M52 87.36C71.5288 87.36 87.36 71.5288 87.36 52C87.36 32.4712 71.5288 16.64 52 16.64C32.4712 16.64 16.64 32.4712 16.64 52C16.64 71.5288 32.4712 87.36 52 87.36Z"
+        android:fillColor="#E4572E"
+        android:strokeColor="#1F2A44"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"/>
+    <path
+        android:pathData="M20.8 39.52C41.6001 51.3067 62.4001 51.3067 83.2001 39.52M20.8 64.48C41.6001 52.6934 62.4001 52.6934 83.2001 64.48"
+        android:strokeColor="WHITE"
+        android:strokeWidth="5"/>
+</vector>
